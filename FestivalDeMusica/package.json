@@ -1,0 +1,26 @@
+{
+  "name": "festivaldemusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM"
+  ],
+  "author": "kike montes",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.8"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sharp": "^0.33.4"
+  }
+}
